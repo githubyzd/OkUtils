@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ok.app.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/get_execute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="get_execute"
+            android:text="同步GET" />
+
+        <Button
+            android:id="@+id/get_enqueue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="get_enqueue"
+            android:text="异步GET" />
+
+        <Button
+            android:id="@+id/post_execute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="post_execute"
+            android:text="同步POST" />
+
+        <Button
+            android:id="@+id/post_enqueue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="post_enqueue"
+            android:text="异步POST" />
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="upload"
+            android:text="上传文件" />
+
+        <Button
+            android:id="@+id/dwonload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="dwonload"
+            android:text="下载" />
+
+        <Button
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片加载" />
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/ok_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ok_get"
+            android:text="OK-GET" />
+        <Button
+            android:id="@+id/ok_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ok_post"
+            android:text="OK-POST" />
+
+        <Button
+            android:id="@+id/ok_upload"
+            android:layout_width="wrap_content"
+            android:text="OK-上传文件"
+            android:onClick="ok_upload"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/post_form"
+            android:layout_width="wrap_content"
+            android:text="POST-FORM"
+            android:onClick="post_form"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/ok_download"
+            android:onClick="ok_download"
+            android:text="下载文件"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
